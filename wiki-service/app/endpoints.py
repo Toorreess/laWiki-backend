@@ -5,7 +5,7 @@ from app.models import WikiIn
 from app.utils import replace_document_id
 
 dbClient = MongoDBRepository(
-    uri="mongodb+srv://torres:qlOJRgVu4owaLb74@cluster0.es98v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    uri="",
     database_name="laWiki",
     collection_name="Wiki",
 )
